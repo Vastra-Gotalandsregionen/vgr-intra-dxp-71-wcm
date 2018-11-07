@@ -1,0 +1,250 @@
+{
+    "availableLanguageIds": [
+        "en_US"
+    ],
+    "defaultLanguageId": "en_US",
+    "fields": [
+        {
+            "label": {
+                "en_US": "Rubrik"
+            },
+            "predefinedValue": {
+                "en_US": ""
+            },
+            "style": {
+                "en_US": ""
+            },
+            "tip": {
+                "en_US": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "heading",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "text"
+        },
+        {
+            "label": {
+                "en_US": "Typ av nyhet"
+            },
+            "options": [
+                {
+                    "value": "akut",
+                    "label": {
+                        "en_US": "AKUT"
+                    }
+                },
+                {
+                    "value": "allmant-okat",
+                    "label": {
+                        "en_US": "Allmänt/okategoriserat"
+                    }
+                },
+                {
+                    "value": "ekonomi",
+                    "label": {
+                        "en_US": "Ekonomi"
+                    }
+                },
+                {
+                    "value": "folkhalsa",
+                    "label": {
+                        "en_US": "Folkhälsa"
+                    }
+                },
+                {
+                    "value": "forskning",
+                    "label": {
+                        "en_US": "Forskning"
+                    }
+                },
+                {
+                    "value": "fouu",
+                    "label": {
+                        "en_US": "FoUU"
+                    }
+                },
+                {
+                    "value": "handelser",
+                    "label": {
+                        "en_US": "Händelser"
+                    }
+                },
+                {
+                    "value": "it-telefoni",
+                    "label": {
+                        "en_US": "IT och telefoni"
+                    }
+                },
+                {
+                    "value": "miljo",
+                    "label": {
+                        "en_US": "Miljö"
+                    }
+                },
+                {
+                    "value": "human-rights",
+                    "label": {
+                        "en_US": "Mänskliga"
+                    }
+                },
+                {
+                    "value": "nyans",
+                    "label": {
+                        "en_US": "NyANS"
+                    }
+                },
+                {
+                    "value": "patientvard",
+                    "label": {
+                        "en_US": "Patientvård"
+                    }
+                },
+                {
+                    "value": "personal",
+                    "label": {
+                        "en_US": "Personal"
+                    }
+                },
+                {
+                    "value": "sakerhet",
+                    "label": {
+                        "en_US": "Säkerhet"
+                    }
+                },
+                {
+                    "value": "utveckling",
+                    "label": {
+                        "en_US": "Utveckling"
+                    }
+                },
+                {
+                    "value": "vgr",
+                    "label": {
+                        "en_US": "VGR"
+                    }
+                }
+            ],
+            "predefinedValue": {
+                "en_US": [
+                    ""
+                ]
+            },
+            "style": {
+                "en_US": ""
+            },
+            "tip": {
+                "en_US": ""
+            },
+            "dataType": "string",
+            "indexType": "keyword",
+            "localizable": true,
+            "multiple": false,
+            "name": "type",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "select"
+        },
+        {
+            "label": {
+                "en_US": "Datum"
+            },
+            "predefinedValue": {
+                "en_US": ""
+            },
+            "style": {
+                "en_US": ""
+            },
+            "tip": {
+                "en_US": ""
+            },
+            "dataType": "date",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "date",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-date"
+        },
+        {
+            "label": {
+                "en_US": "Sammanfattning"
+            },
+            "predefinedValue": {
+                "en_US": ""
+            },
+            "style": {
+                "en_US": ""
+            },
+            "tip": {
+                "en_US": ""
+            },
+            "dataType": "string",
+            "indexType": "text",
+            "localizable": true,
+            "name": "summary",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "textarea"
+        },
+        {
+            "label": {
+                "en_US": "Brödtext"
+            },
+            "predefinedValue": {
+                "en_US": ""
+            },
+            "style": {
+                "en_US": ""
+            },
+            "tip": {
+                "en_US": ""
+            },
+            "dataType": "html",
+            "fieldNamespace": "ddm",
+            "indexType": "text",
+            "localizable": true,
+            "name": "content",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-text-html"
+        },
+        {
+            "label": {
+                "en_US": "Featured Bild"
+            },
+            "predefinedValue": {
+                "en_US": ""
+            },
+            "style": {
+                "en_US": ""
+            },
+            "tip": {
+                "en_US": ""
+            },
+            "dataType": "document-library",
+            "fieldNamespace": "ddm",
+            "indexType": "keyword",
+            "localizable": true,
+            "name": "featuredImage",
+            "readOnly": false,
+            "repeatable": false,
+            "required": false,
+            "showLabel": true,
+            "type": "ddm-documentlibrary"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+
+<root available-locales="sv_SE" default-locale="sv_SE">
+  <dynamic-element dataType="html" fieldNamespace="ddm" indexType="keyword" localizable="true" name="content" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-text-html" width="small">
+    <meta-data locale="sv_SE">
+      <entry name="label">
+        <![CDATA[Brödtext]]>
+      </entry>
+      <entry name="predefinedValue">
+        <![CDATA[]]>
+      </entry>
+      <entry name="tip">
+        <![CDATA[]]>
+      </entry>
+    </meta-data>
+  </dynamic-element>
+</root>

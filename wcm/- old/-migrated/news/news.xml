@@ -1,0 +1,200 @@
+
+<root available-locales="sv_SE" default-locale="sv_SE">
+	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="heading" readOnly="false" repeatable="false" required="false" showLabel="true" type="text" width="large">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[Rubrik]]>
+			</entry>
+			<entry name="predefinedValue">
+				<![CDATA[]]>
+			</entry>
+			<entry name="tip">
+				<![CDATA[]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="string" indexType="keyword" localizable="true" multiple="false" name="type" readOnly="false" repeatable="false" required="false" showLabel="true" type="select" width="">
+		<dynamic-element name="option5468" type="option" value="akut">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[AKUT]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5469" type="option" value="allmant-okat">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Allmänt/okategoriserat]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5470" type="option" value="ekonomi">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Ekonomi]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5471" type="option" value="folkhalsa">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Folkhälsa]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5472" type="option" value="forskning">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Forskning]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5435" type="option" value="fouu">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[FoUU]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5473" type="option" value="handelser">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Händelser]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5474" type="option" value="it-telefoni">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[IT och telefoni]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5475" type="option" value="miljo">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Miljö]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5436" type="option" value="human-rights">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Mänskliga rättigheter]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5476" type="option" value="nyans">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[NyANS]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5477" type="option" value="patientvard-sakerhet">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Patientvård och säkerhet]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5478" type="option" value="personal">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Personal]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5479" type="option" value="sakerhet-pers-lokal">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Säkerhet för personal och lokal]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5480" type="option" value="utveckling">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[Utveckling]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5481" type="option" value="vgr">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[VGR]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<dynamic-element name="option5437" type="option" value="">
+			<meta-data locale="sv_SE">
+				<entry name="label">
+					<![CDATA[]]>
+				</entry>
+			</meta-data>
+		</dynamic-element>
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[Typ av nyhet]]>
+			</entry>
+			<entry name="predefinedValue">
+				<![CDATA[[""]]]>
+			</entry>
+			<entry name="tip">
+				<![CDATA[]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="date" fieldNamespace="ddm" indexType="keyword" localizable="true" name="date" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-date" width="large">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[Datum]]>
+			</entry>
+			<entry name="predefinedValue">
+				<![CDATA[]]>
+			</entry>
+			<entry name="tip">
+				<![CDATA[]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="string" indexType="keyword" localizable="true" name="summary" readOnly="false" repeatable="false" required="false" showLabel="true" type="textarea" width="large">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[Sammanfattning]]>
+			</entry>
+			<entry name="predefinedValue">
+				<![CDATA[]]>
+			</entry>
+			<entry name="tip">
+				<![CDATA[]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="html" fieldNamespace="ddm" indexType="keyword" localizable="true" name="content" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-text-html" width="large">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[Brödtext]]>
+			</entry>
+			<entry name="predefinedValue">
+				<![CDATA[]]>
+			</entry>
+			<entry name="tip">
+				<![CDATA[]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element dataType="document-library" fieldNamespace="ddm" indexType="keyword" localizable="true" name="featuredImage" readOnly="false" repeatable="false" required="false" showLabel="true" type="ddm-documentlibrary" width="">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[Featured Bild]]>
+			</entry>
+			<entry name="predefinedValue">
+				<![CDATA[]]>
+			</entry>
+			<entry name="tip">
+				<![CDATA[]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+</root>

@@ -1,0 +1,1000 @@
+<dynamic-element dataType="string" indexType="keyword" localizable="true" multiple="false" name="icon" readOnly="false" repeatable="false" required="false" showLabel="true" type="select" width="">
+	<dynamic-element name="option3694" type="option" value="">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option3654" type="option" value="glass">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[glass]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option3655" type="option" value="music">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[music]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option3656" type="option" value="search">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[search]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option3657" type="option" value="envelope">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[envelope]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option3658" type="option" value="heart">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[heart]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option3659" type="option" value="star">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[star]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option3660" type="option" value="star-empty">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[star-empty]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option3661" type="option" value="user">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[user]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option3662" type="option" value="film">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[film]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4540" type="option" value="th-large">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[th-large]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4541" type="option" value="th">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[th]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4542" type="option" value="th-list">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[th-list]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4543" type="option" value="ok">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[ok]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4544" type="option" value="remove">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[remove]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4545" type="option" value="zoom-in">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[zoom-in]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4546" type="option" value="zoom-out">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[zoom-out]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4547" type="option" value="off">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[off]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4548" type="option" value="signal">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[signal]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4549" type="option" value="cog">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[cog]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4550" type="option" value="trash">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[trash]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4551" type="option" value="home">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[home]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4552" type="option" value="file">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[file]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4553" type="option" value="time">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[time]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4554" type="option" value="road">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[road]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4555" type="option" value="download-alt">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[download-alt]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4556" type="option" value="download">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[download]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4557" type="option" value="upload">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[upload]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4558" type="option" value="inbox">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[inbox]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option4559" type="option" value="play-circle">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[play-circle]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6069" type="option" value="repeat">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[repeat]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6070" type="option" value="refresh">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[refresh]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6071" type="option" value="list-alt">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[list-alt]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6072" type="option" value="lock">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[lock]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6073" type="option" value="flag">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[flag]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6074" type="option" value="headphones">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[headphones]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6075" type="option" value="volume-off">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[volume-off]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6076" type="option" value="volume-down">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[volume-down]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6077" type="option" value="volume-up">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[volume-up]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6078" type="option" value="qrcode">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[qrcode]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6079" type="option" value="barcode">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[barcode]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6080" type="option" value="tag">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[tag]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6081" type="option" value="tags">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[tags]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6082" type="option" value="book">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[book]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6083" type="option" value="bookmark">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[bookmark]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6084" type="option" value="print">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[print]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6085" type="option" value="camera">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[camera]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6086" type="option" value="font">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[font]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6087" type="option" value="bold">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[bold]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6088" type="option" value="italic">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[italic]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6089" type="option" value="text-height">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[text-height]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6090" type="option" value="text-width">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[text-width]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6091" type="option" value="align-left">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[align-left]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6092" type="option" value="align-center">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[align-center]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6093" type="option" value="align-right">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[align-right]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6094" type="option" value="align-justify">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[align-justify]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6095" type="option" value="list">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[list]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6096" type="option" value="indent-left">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[indent-left]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6097" type="option" value="indent-right">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[indent-right]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6098" type="option" value="facetime-video">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[facetime-video]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6099" type="option" value="picture">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[picture]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6593" type="option" value="pencil">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[pencil]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6594" type="option" value="map-marker">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[map-marker]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6595" type="option" value="adjust">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[adjust]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6596" type="option" value="tint">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[tint]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6597" type="option" value="edit">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[edit]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6598" type="option" value="share">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[share]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6599" type="option" value="check">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[check]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6600" type="option" value="move">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[move]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6601" type="option" value="step-backward">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[step-backward]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6602" type="option" value="fast-backward">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[fast-backward]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6603" type="option" value="backward">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[backward]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6604" type="option" value="play">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[play]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6605" type="option" value="pause">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[pause]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6606" type="option" value="stop">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[stop]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6607" type="option" value="forward">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[forward]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6608" type="option" value="fast-forward">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[fast-forward]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6609" type="option" value="step-forward">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[step-forward]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6610" type="option" value="eject">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[eject]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6611" type="option" value="chevron-left">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[chevron-left]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6612" type="option" value="chevron-right">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[chevron-right]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6613" type="option" value="plus-sign">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[plus-sign]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6614" type="option" value="minus-sign">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[minus-sign]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6615" type="option" value="remove-sign">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[remove-sign]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6616" type="option" value="ok-sign">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[ok-sign]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6617" type="option" value="question-sign">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[question-sign]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6618" type="option" value="info-sign">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[info-sign]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6619" type="option" value="screenshot">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[screenshot]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6620" type="option" value="remove-circle">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[remove-circle]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6621" type="option" value="ok-circle">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[ok-circle]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option6622" type="option" value="ban-circle">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[ban-circle]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5566" type="option" value="arrow-left">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[arrow-left]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5567" type="option" value="arrow-right">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[arrow-right]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5568" type="option" value="arrow-up">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[arrow-up]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5569" type="option" value="arrow-down">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[arrow-down]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5570" type="option" value="share-alt">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[share-alt]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5903" type="option" value="resize-full">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[resize-full]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5904" type="option" value="resize-small">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[resize-small]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5905" type="option" value="plus">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[plus]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5906" type="option" value="minus">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[minus]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5907" type="option" value="asterisk">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[asterisk]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5908" type="option" value="exclamation-sign">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[exclamation-sign]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5909" type="option" value="gift">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[gift]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5910" type="option" value="leaf">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[leaf]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5911" type="option" value="fire">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[fire]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option5912" type="option" value="eye-open">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[eye-open]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8110" type="option" value="eye-close">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[eye-close]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8111" type="option" value="warning-sign">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[warning-sign]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8112" type="option" value="plane">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[plane]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8113" type="option" value="calendar">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[calendar]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8114" type="option" value="random">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[random]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8115" type="option" value="comment">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[comment]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8116" type="option" value="magnet">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[magnet]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8117" type="option" value="chevron-up">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[chevron-up]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8118" type="option" value="chevron-down">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[chevron-down]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8119" type="option" value="retweet">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[retweet]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8120" type="option" value="shopping-cart">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[shopping-cart]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8121" type="option" value="folder-close">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[folder-close]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8122" type="option" value="folder-open">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[folder-open]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8123" type="option" value="resize-vertical">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[resize-vertical]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8124" type="option" value="resize-horizontal">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[resize-horizontal]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8125" type="option" value="hdd">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[hdd]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8126" type="option" value="bullhorn">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[bullhorn]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8127" type="option" value="bell">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[bell]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8128" type="option" value="certificate">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[certificate]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8129" type="option" value="thumbs-up">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[thumbs-up]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8130" type="option" value="thumbs-down">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[thumbs-down]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8131" type="option" value="hand-right">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[hand-right]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8132" type="option" value="hand-left">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[hand-left]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8133" type="option" value="hand-up">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[hand-up]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8134" type="option" value="hand-down">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[hand-down]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8135" type="option" value="circle-arrow-right">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[circle-arrow-right]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8136" type="option" value="circle-arrow-left">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[circle-arrow-left]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8137" type="option" value="circle-arrow-up">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[circle-arrow-up]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8138" type="option" value="circle-arrow-down">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[circle-arrow-down]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8139" type="option" value="globe">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[globe]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8140" type="option" value="wrench">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[wrench]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8141" type="option" value="tasks">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[tasks]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8142" type="option" value="filter">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[filter]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8143" type="option" value="briefcase">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[briefcase]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<dynamic-element name="option8144" type="option" value="fullscreen">
+		<meta-data locale="sv_SE">
+			<entry name="label">
+				<![CDATA[fullscreen]]>
+			</entry>
+		</meta-data>
+	</dynamic-element>
+	<meta-data locale="sv_SE">
+		<entry name="label">
+			<![CDATA[Ikon]]>
+		</entry>
+		<entry name="predefinedValue">
+			<![CDATA[[""]]]>
+		</entry>
+		<entry name="tip">
+			<![CDATA[]]>
+		</entry>
+	</meta-data>
+</dynamic-element>
