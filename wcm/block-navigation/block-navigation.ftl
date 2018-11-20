@@ -4,8 +4,8 @@
 
 <#-- Define some variables -->
 <#assign portletNamespace = "" />
-<#if request["portlet-namespace"]?has_content>
-	<#assign portletNamespace = request["portlet-namespace"] />
+<#if requestMap["portlet-namespace"]?has_content>
+	<#assign portletNamespace = requestMap["portlet-namespace"] />
 	<#assign portletNamespace = trimPortletNamespace(portletNamespace) />
 </#if>
 

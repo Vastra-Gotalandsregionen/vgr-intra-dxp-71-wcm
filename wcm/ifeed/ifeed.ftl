@@ -1,4 +1,4 @@
-<#assign namespace = request["portlet-namespace"]>
+<#assign namespace = requestMap["portlet-namespace"]>
 
 <div class="ifeed-parsed-wrap intra-list-wrap content-box">
 

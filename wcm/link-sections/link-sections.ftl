@@ -1,4 +1,4 @@
-<#assign namespace = request["portlet-namespace"]>
+<#assign namespace = requestMap["portlet-namespace"]>
 
 <div id="${namespace}IntraListWrap" class="intra-list-wrap content-box">
 
