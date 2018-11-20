@@ -22,7 +22,11 @@
 
 				<div class="ifeed-parsed-container" data-url="${feed.data}" data-displaytype="${feed.feedTitle.displayType.data}">
 					<#if feed.feedTitle.data != "">
-						<h3 class="ifeed-parsed-title">
+						<#assign titleCssClass = "ifeed-parsed-title" />
+						<#if feed.feedTitle.displayType.data == "collapsible-open">
+							<#assign titleCssClass = titleCssClass + " ifeed-parsed-title-expanded" />
+						</#if>
+						<h3 class="${titleCssClass}">
 							<span>${feed.feedTitle.data}</span>
 						</h3>
 					</#if>
