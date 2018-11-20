@@ -5,6 +5,7 @@
 <#assign company_id = themeDisplay.getCompanyId() />
 
 <#assign assetEntryLocalService = serviceLocator.findService("com.liferay.asset.kernel.service.AssetEntryLocalService")>
+<#assign dlFileEntryLocalService = serviceLocator.findService("com.liferay.document.library.kernel.service.DLFileEntryLocalService")>
 <#assign expandoValueLocalService = serviceLocator.findService("com.liferay.expando.kernel.service.ExpandoValueLocalService") />
 <#assign journalArticleLocalService = serviceLocator.findService("com.liferay.journal.service.JournalArticleLocalService")>
 <#assign layoutLocalService = serviceLocator.findService("com.liferay.portal.kernel.service.LayoutLocalService")>
@@ -55,17 +56,19 @@
           <#assign featuredItemDate = featuredDocXml.valueOf("//dynamic-element[@name='date']/dynamic-content/text()") />
           <#assign featuredImage = featuredDocXml.valueOf("//dynamic-element[@name='featuredImage']/dynamic-content/text()") />
 
+          <#assign featuredImageUrl = getArticleDLEntryUrl(featuredImage) />
+
           <#--
           <#assign featuredItemDate = featuredItemDate?number?long?number_to_datetime?string("yyyy-MM-dd")>
           -->
 
-          <#if !featuredImage?has_content>
-            <#assign featuredImage = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
+          <#if !featuredImageUrl?has_content>
+            <#assign featuredImageUrl = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" />
           </#if>
 
           <a class="news-featured" href="${featuredViewURL}">
 
-            <img src="${featuredImage}" alt="" class="" />
+            <img src="${featuredImageUrl}" alt="" class="" />
             <div class="news-info">
               <span class="news-info-date">
                 ${featuredItemDate}
@@ -154,4 +157,34 @@
 	<#else>
 		<#return myString />
 	</#if>
+</#function>
+
+<#--
+Function that returns the download url for a DLFileEntry in an article
+Params: xmlValue = the xml-value of the DLFileEntry node in the article XML.
+If structure field for the DLFileEntry is called image, the xmlValue can be retrieved by
+<#assign xmlValue = docXml.valueOf("//dynamic-element[@name='image']/dynamic-content/text()") />
+Returns: the download-url of the DLFileEntry
+
+Requires the following services located in ADT:
+<#assign assetEntryLocalService = serviceLocator.findService("com.liferay.asset.kernel.service.AssetEntryLocalService")>
+<#assign dlFileEntryLocalService = serviceLocator.findService("com.liferay.document.library.kernel.service.DLFileEntryLocalService")>
+-->
+<#function getArticleDLEntryUrl xmlValue>
+  <#local docUrl = "" />
+
+  <#if xmlValue?has_content>
+    <#local jsonObject = xmlValue?eval />
+
+    <#local entryUuid = jsonObject.uuid />
+    <#local entryGroupId = getterUtil.getLong(jsonObject.groupId) />
+
+    <#local dlFileEntry = dlFileEntryLocalService.getDLFileEntryByUuidAndGroupId(entryUuid, entryGroupId) />
+
+    <#local assetEntry = assetEntryLocalService.getEntry("com.liferay.document.library.kernel.model.DLFileEntry", dlFileEntry.fileEntryId) />
+    <#local assetRenderer = assetEntry.assetRenderer />
+
+    <#local docUrl = assetRenderer.getURLDownload(themeDisplay) />
+  </#if>
+  <#return docUrl />
 </#function>
