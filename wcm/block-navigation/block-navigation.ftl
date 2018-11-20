@@ -35,15 +35,15 @@
 					<div class="title">${pageLayout.getName(locale) }</div>
 
 					<div class="img-wrap">
-						<#if page.image.data?has_content>
-							<img src="${page.image.data}" alt="ikon" />
+						<#if page.image.getData()?has_content>
+							<img src="${page.image.getData()}" alt="ikon" />
 						<#else>
 							&nbsp;
 						</#if>
 					</div>
 
 					<div class="description">
-						${ellipsis(page.description.data, maxDescriptionChars)}
+						${ellipsis(page.description.getData(), maxDescriptionChars)}
 					</div>
 				</a>
 			</div>
