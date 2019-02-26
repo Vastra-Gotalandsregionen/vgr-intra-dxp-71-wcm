@@ -7,7 +7,7 @@
 	<h1>${heading.data}</h1>
 	<div class="news-summary">${summary.data}</div>
 	<#if featuredImage.data != "">
-		<img class="featured-image" src="${featuredImage.data}" alt="${heading.data}" />
+		<img class="featured-image" src="${featuredImage.getData()}" alt="${heading.data}" />
 	</#if>
 	<div class="news-content">${content.data}</div>
 </div>
