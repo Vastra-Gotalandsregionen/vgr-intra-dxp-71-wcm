@@ -65,10 +65,12 @@
         </#if>
 
         <div class="news-item news-item-${itemType}">
+            <#--
             <div class="pull-right">
               <@getEditIcon entry=entry />
             </div>
-        
+            -->
+
           <a href="${viewURL}">
             <div class="news-item-inner">
               <div class="news-item-date">
