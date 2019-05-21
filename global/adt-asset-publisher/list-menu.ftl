@@ -22,10 +22,11 @@
 	<#assign firstEntryParentPlid = firstEntryLayout.getParentPlid() />
 	<#assign firstEntryParent = layoutLocalService.getLayout(firstEntryParentPlid) />
 	<#assign navTitle = firstEntryParent.getName(locale) />
+    <#assign firstEntryUrl = firstEntryParent.getFriendlyURL(locale) />
 
 	<div aria-label="<@liferay.language key="site-pages" />" class="nav-menu">
 
-		<h2>${navTitle}</h2>
+		<h2><a href="${firstEntryUrl}">${navTitle}</a></h2>
 
 		<@buildNavigation
 			branchNavItems=branchNavItems
