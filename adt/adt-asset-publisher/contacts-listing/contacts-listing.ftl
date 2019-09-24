@@ -29,7 +29,7 @@
     <#assign heading = "Kontaktpersoner" />
     <#assign portletTitle = themeDisplay.getPortletDisplay().getTitle() />
 
-    <#if portletTitle?lower_case != "innehållspresentatör" && portletTitle?lower_case != "asset publisher">
+    <#if portletTitle?lower_case != "innehållspresentatör" && portletTitle?lower_case != "innehållspublicerare" && portletTitle?lower_case != "asset publisher">
       <#assign heading = portletTitle />
     </#if>
 
